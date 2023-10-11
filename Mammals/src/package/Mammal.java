@@ -11,7 +11,7 @@ public abstract class Mammal{
     public abstract void makeNoice();
     public abstract void movement();
 
-    /*  Aca colocare las clases que se heredaran por todos aunque no necesariamente se realicen de manera similar para fines del proyecto
+    /*  En esta parte colocare metodos heredados por todos los mamiferos, aunque no necesariamente se realicen de manera similar para fines del proyecto
     se considerara que si lo hacen */
 
     public void sleep() {
