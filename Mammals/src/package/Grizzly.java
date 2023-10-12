@@ -1,7 +1,7 @@
 public class Grizzly extends Mammal implements Hibernate{
     public Grizzly(String name) {
         super(name);
-    }    
+    }
 
     @Override
     public void feedThemselves(){
@@ -22,6 +22,4 @@ public class Grizzly extends Mammal implements Hibernate{
     public void hibernate(){
         System.out.println("Duerme durante el invierno y sobrevive si comio lo suficiente #animoOSO");
     }
-
-
 }

@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
+        Grizzly bear = new Grizzly("Bear");
 
-        Grizzly oso = new Grizzly("Oso");
-        
-        oso.feedThemselves();
-        oso.hibernate();
+        bear.feedThemselves();
+        bear.hibernate();
     }
 }
 
@@ -13,18 +12,18 @@ public class Main {
 *   SINGLE RESPONSABILITY PRINCIPLE: Las clases deben tener una unica responsabilidad debe realizar una unica tarea
 *
 *       la clase mammal brinda el comportamiento aplicable a todos los mamíferos, la clase grizzly instancia el comportamiento
-*       del oso pardo unicamente, al igual que el resto de los animales herederos de la clase mamífero respectivamente, las       
+*       del oso pardo unicamente, al igual que el resto de los animales herederos de la clase mamífero respectivamente, las
 *       interfaces son simples.
 *
 *   Open-Closed Principle: Las clases deben estar cerradas a la modificación de sus datos y métodos pero abiertas a la extensión
-*       
-*       El atributo de la mamifero no es accesible desde fuera exceptuando las clases derivadas, es solo editado por un método de 
+*
+*       El atributo de la mamifero no es accesible desde fuera exceptuando las clases derivadas, es solo editado por un método de
 *       de la misma clase abstracta, pero la clase se extiende al resto de animales como el oso o el venando o el perro.
 *
 *   Liskov Substitution Principle: Los métodos de las clases hijas deben poder usarse como las del padre sin afectar el correcto 
 *       funcionamiento del programa
 *
-*       
+*
 *
 *
 *
