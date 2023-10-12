@@ -2,9 +2,7 @@ public class Gazelle extends Mammal implements Migrate{
 
     public Gazelle(String name) {
         super(name);
-    }    
-
-    //Realiza los "COMPORTAMIENTOS" normales de los mamiferos pero que se realizan de distinta forma por animal
+    }
 
     @Override
     public void feedThemselves(){
@@ -12,7 +10,7 @@ public class Gazelle extends Mammal implements Migrate{
     }
 
     @Override
-    public void makeNoice(){
+    public void makeNoise(){
         System.out.println("Hace un chirrido poco perceptible");
     }
 
@@ -21,9 +19,6 @@ public class Gazelle extends Mammal implements Migrate{
         System.out.println("Corre o camina a cuatro patas agilmente");
     }
 
-    //Realiza los "Comportamientos" genéricos e iguales de los mamíferos, pero esto desde la clase abstracta
-
-    //Realiza un "comportamiento (Método)" cuasi-único para algunos mamíferos
     @Override
     public void migrate(){
         System.out.println("Se mueve de las planicies a los acuiferos (cuidado con los cocodrilos)");
