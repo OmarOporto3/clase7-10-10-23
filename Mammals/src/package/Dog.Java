@@ -4,8 +4,6 @@ public class Dog extends Mammal{
         super(name);
     }    
 
-    //Realiza los "COMPORTAMIENTOS" normales de los mamiferos pero que se realizan de distinta forma por animal
-
     @Override
     public void feedThemselves(){
         System.out.println( getName() +"Come comida de humanos" );

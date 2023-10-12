@@ -1,3 +1,4 @@
-public interface Hibernate {
+public interface Hibernate 
+{
     void hibernate();    
 }

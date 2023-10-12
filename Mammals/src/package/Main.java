@@ -1,12 +1,12 @@
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
 
-        Grizzly oso = new Grizzly("Oso");
+        Grizzly bear = new Grizzly("Bear");
         
-        oso.feedThemselves();
-        
-        //---------Llega el INVIERNO
-        oso.hibernate();
+        bear.feedThemselves();
+        bear.hibernate();
     }
 }
 
