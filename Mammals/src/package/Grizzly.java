@@ -4,15 +4,16 @@ public class Grizzly extends Mammal implements Hibernate {
         super(name);
     }    
 
-    //Realiza los "COMPORTAMIENTOS" normales de los mamiferos pero que se realizan de distinta forma por animal
-
+    /**
+    * Abstract Classes
+    */
     @Override
     public void feedThemselves() {
         System.out.println("Caza animales cercanos");
     }
 
     @Override
-    public String getNoice() {
+    public String getNoise() {
         return ("Ruge de manera estrepitosa");
     }
 
@@ -21,12 +22,8 @@ public class Grizzly extends Mammal implements Hibernate {
         System.out.println("Corre o camina a cuatro patas");
     }
 
-    //Realiza un "comportamiento (Método)" cuasi-único para algunos mamíferos
     @Override
     public void hibernate() {
         System.out.println("Duerme durante el invierno y sobrevive si comio lo suficiente #animoOSO");
     }
-
-    //Realiza los "Comportamientos" genéricos e iguales de los mamíferos, pero esto desde la clase abstracta
-
 }

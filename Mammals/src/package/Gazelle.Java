@@ -4,15 +4,16 @@ public class Gazelle extends Mammal implements Migrate {
         super(name);
     }    
 
-    //Realiza los "COMPORTAMIENTOS" normales de los mamiferos pero que se realizan de distinta forma por animal
-
+   /**
+    * Abstract Classes
+    */
     @Override
     public void feedThemselves() {
         System.out.println("Come Hierba en la Sabana");
     }
 
     @Override
-    public String getNoice() {
+    public String getNoise() {
         return ("Hace un chirrido poco perceptible");
     }
 
