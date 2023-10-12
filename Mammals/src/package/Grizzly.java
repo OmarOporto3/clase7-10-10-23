@@ -2,11 +2,8 @@ public class Grizzly extends Mammal implements Hibernate {
     
     public Grizzly(String name) {
         super(name);
-    }    
+    }
 
-    /**
-    * Abstract Classes
-    */
     @Override
     public void feedThemselves() {
         System.out.println("Caza animales cercanos");
