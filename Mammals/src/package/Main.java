@@ -4,8 +4,6 @@ public class Main {
         Grizzly oso = new Grizzly("Oso");
         
         oso.feedThemselves();
-        
-        //---------Llega el INVIERNO
         oso.hibernate();
     }
 }

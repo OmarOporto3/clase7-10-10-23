@@ -12,7 +12,7 @@ public class Dog extends Mammal{
     }
 
     @Override
-    public void makeNoice(){
+    public void makeNoise(){
         System.out.println( getName() + "Ladra para avertir de su disconformidad" );
     }
 

@@ -12,7 +12,7 @@ public class Gazelle extends Mammal implements Migrate{
     }
 
     @Override
-    public void makeNoice(){
+    public void makeNoise(){
         System.out.println("Hace un chirrido poco perceptible");
     }
 
