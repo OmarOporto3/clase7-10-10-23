@@ -1,14 +1,14 @@
-public abstract class Mammal{
+public abstract class Mammal {
     private String name;
 
-    public Mammal(String name){
+    public Mammal(String name) {
         this.name = name;
     };
 
     //En este punto creare los métodos abstractos que considero son heredables por los mamiferos pero no se aplican de la misma manera
 
     public abstract void feedThemselves();
-    public abstract void makeNoice();
+    public abstract String getNoice();
     public abstract void movement();
 
     /*  En esta parte colocare metodos heredados por todos los mamiferos, aunque no necesariamente se realicen de manera similar para fines del proyecto
@@ -18,14 +18,13 @@ public abstract class Mammal{
         System.out.println("Se cansa y se duerme :3");
     };
     
-    public void breath(){
+    public void breath() {
         System.out.println("obtiene óxigeno del aire por sus pulmones");
     };
 
     //Getter para el Unico atributo que tiene la clase mammal
 
-    public String getName()
-    {
+    public String getName() {
         return name;
     };
 }
