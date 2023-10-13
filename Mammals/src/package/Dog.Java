@@ -1,6 +1,7 @@
-public class Dog extends Mammal {
-
-    public Dog(String name) {
+public class Dog extends Mammal
+{
+    public Dog(String name)
+    {
         super(name);
     }
 
@@ -11,14 +12,14 @@ public class Dog extends Mammal {
     }
 
     @Override
-    public String getNoise()
-    {
-        return (getName() + "Ladra para avertir de su disconformidad");
-    }
-
-    @Override
     public void movement()
     {
         System.out.println(getName() + "Corre o camina a cuatro patas agilmente");
+    }
+
+    @Override
+    public String getNoise()
+    {
+        return (getName() + "Ladra para avertir de su disconformidad");
     }
 }
