@@ -1,26 +1,31 @@
-public class Grizzly extends Mammal implements Hibernate {
-    
-    public Grizzly(String name) {
+public class Grizzly extends Mammal implements Hibernate
+{
+    public Grizzly(String name)
+    {
         super(name);
     }
 
     @Override
-    public void feedThemselves() {
+    public void feedThemselves()
+    {
         System.out.println("Caza animales cercanos");
     }
 
     @Override
-    public String getNoise() {
+    public String getNoise()
+    {
         return ("Ruge de manera estrepitosa");
     }
 
     @Override
-    public void movement() {
+    public void movement()
+    {
         System.out.println("Corre o camina a cuatro patas");
     }
 
     @Override
-    public void hibernate() {
+    public void hibernate()
+    {
         System.out.println("Duerme durante el invierno y sobrevive si comio lo suficiente #animoOSO");
     }
 }

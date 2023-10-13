@@ -1,10 +1,10 @@
 public abstract class Mammal
 {
-    private String name;
+    private String commonName;
 
-    public Mammal(String name)
+    public Mammal(String commonName)
     {
-        this.name = name;
+        this.commonName = commonName;
     }
 
     public abstract void feedThemselves();
@@ -13,16 +13,19 @@ public abstract class Mammal
 
     public void sleep()
     {
-        System.out.println("Se cansa y se duerme :3");
+        System.out.println("It's tired so now is sleeping :3");
     }
 
     public void breath()
     {
-        System.out.println("obtiene óxigeno del aire por sus pulmones");
+        System.out.println("obtain oxygen from the atmosphere through its oxygens");
     }
 
+    /**
+     * @return the common name of the mammal
+     */
     public String getName() {
-        return name;
+        return commonName;
     }
 
 }

@@ -1,14 +1,16 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        Grizzly bear = new Grizzly("Bear");
+        Gazelle gazelle = new Gazelle("venadillo");
+        Observer human = new Observer();
 
-        Grizzly oso = new Grizzly("Oso");
-        Gazelle gacela = new Gazelle("venadillo");
-        Observer humano = new Observer();
-        
-        oso.feedThemselves();
-        gacela.feedThemselves();
-        oso.hibernate();
-        oso.movement();
-        humano.listen(oso);
+        bear.feedThemselves();
+        gazelle.feedThemselves();
+        bear.hibernate();
+        bear.movement();
+
+        String action =human.listen(bear);
+        System.out.println(action);
     }
 }

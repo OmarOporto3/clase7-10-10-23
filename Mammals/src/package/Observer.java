@@ -1,9 +1,9 @@
-public class Observer {
-
-    public void listen(Mammal mammal) {
-
+public class Observer
+{
+    public String listen(Mammal mammal)
+    {
         String sound = mammal.getNoise();
-        System.out.println("El observador oyó al " + mammal.getName() + " el cual \"" + sound + "\"");
-        
+        return ("El observador oyó al " + mammal.getName() + " el cual \"" + sound + "\"");
+
     }
 }
